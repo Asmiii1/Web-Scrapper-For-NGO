@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>NGO SOLUTIONS</title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+body, html {
+
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://media.istockphoto.com/photos/panoramic-teamwork-business-join-hand-together-concept-business-team-picture-id1283331069?b=1&k=20&m=1283331069&s=170667a&w=0&h=zjQEz40tg-UNNb8OvJSNoSXP9V4IvIzZUR7LvaBoyew=");
+
+  /* Add the blur effect */
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+
+ position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align:center;
+  border:2px solid white;
+}
+</style>
+
+
+
+</head>
+<body>
+<div class="bg-image">
+
+
+
+<ul>
+  <li><a class="active" href="">Home</a></li>
+  <li><a href="login">Login</a></li>
+
+
+</ul>
+
+<section>
+    <div class="text-block">
+    <h1>WELCOME!</h1>
+    <p> Our website provides you the best and convenient way of finding one of the best Ngos.<br>Our website acts a medium to connect people to the Ngos.<br>
+         We allow you to find the Ngo on one go.
+    </p>
+
+
+  </div>
+    <div class="row">
+  <div class="column">
+    <img src="https://images.unsplash.com/photo-1594708767771-a7502209ff51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmdvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" style="width:100%">
+
+  </div>
+  <div class="column">
+    <img src="https://media.istockphoto.com/photos/volunteers-standing-hands-picture-id1303107115?b=1&k=20&m=1303107115&s=170667a&w=0&h=Qy0CzAqe8H_wDTiE7-r6jMqfvNdt_HzK1Z9HDLETRrQ=" alt="" style="width:100%">
+
+  </div>
+   <div class="column">
+    <img src="https://media.istockphoto.com/photos/poor-indian-children-asking-for-fresh-water-india-picture-id635767916?k=20&m=635767916&s=612x612&w=0&h=sgv6wVrr1MJeu9iw8prJZKnKyY2pCFc3CvaF_76vAyo=" alt="" style="width:100%">
+  </div>
+        <div class="column">
+    <img src="https://media.istockphoto.com/photos/poor-community-queueing-up-to-get-free-food-from-charity-group-picture-id1317538574?b=1&k=20&m=1317538574&s=170667a&w=0&h=Ijry3VPZof1eZogeEbC5iHES097h1d5AHM-vGB4ITio=" alt="" style="width:100%">
+  </div>
+
+
+</div>
+
+</section>
+</div>
+
+
+
+</body>
+</html>

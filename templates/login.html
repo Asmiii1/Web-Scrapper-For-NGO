@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <title>NGO SOLUTIONS</title>
+    </head>
+    <style>
+body  {
+  background-image: url("https://media.istockphoto.com/photos/the-concept-of-unity-cooperation-teamwork-and-charity-picture-id1290692045?b=1&k=20&m=1290692045&s=170667a&w=0&h=mjKRZccVf2DDaVN83LFmpunPjuBNrCO3kuetFCPm45g=");
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+</style>
+    <body></br></br></br></br></br>
+
+
+        <div align="center">
+          <div align="center" class="border">
+             <div class="header">
+                <h1 class="word">Login</h1>
+             </div></br></br></br>
+            <h2 class="word">
+                <form action="{{ url_for('login') }}" method="post">
+                  <div class="msg">{{ msg }}</div>
+                    <input id="username" name="username" type="text" placeholder="Enter Your Username" class="textbox"/></br></br>
+                    <input id="password" name="password" type="password" placeholder="Enter Your Password" class="textbox"/></br></br></br>
+                    <input type="submit" class="btn" value="Sign In"></br></br>
+                </form>
+            </h2>
+            <p  class="bottom">Dont't have an account?  <a class="bottom" href="{{url_for('register')}}"> Sign Up here</a></p>
+          </div>
+        </div>
+    </div>
+    </body>
+</html>

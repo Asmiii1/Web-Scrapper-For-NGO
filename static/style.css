@@ -1,0 +1,57 @@
+        .header{
+
+                padding: 5px 120px;
+                width: 150px;
+                height: 70px;
+                background-color: transparent;
+                border:2px solid black;
+
+            }
+
+            .border{
+                padding: 80px 50px;
+                width: 400px;
+                height: 450px;
+                border: 2px solid black;
+                border-radius: 0px;
+                background-color: solid black;
+
+            }
+
+            .btn {
+                padding: 10px 40px;
+                background-color: transparent;
+                color: black;
+                font-style: oblique;
+                font-weight: bold;
+                border-radius: 10px;
+                border: 2 px solid black
+            }
+
+            .textbox{
+                padding: 10px 40px;
+                background-color: transparent;
+                text-color: black;
+                border-radius: 10px;
+                border:2px solid black;
+
+            }
+
+            ::placeholder {
+                color: black;
+                opacity: 1;
+                font-style: oblique;
+                font-weight: bold;
+            }
+
+            .word{
+                color:black;
+                font-style: oblique;
+                font-weight: bold;
+            }
+
+            .bottom{
+                color:black;
+                font-style: oblique;
+                font-weight: bold;
+            }
